@@ -1,6 +1,6 @@
 ##### [🌍 Discord Server](Proximamente) -  [:gem: Premium](Proximamente) - [🔧 Builder](https://github.com/Stanley-GF/Arizona) - [💡 Features](https://github.com/AlexClient/PirateStealer#features) 
 
-### UPDATE PIRATESTEALERV3
+### UPDATE PIRATESTEALER V3
 
 - The new update of this repository is coming
 
